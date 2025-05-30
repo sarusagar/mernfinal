@@ -4,7 +4,7 @@ const app = express()
 app.get("/",(req,res)=>{
     console.log(req)
     res.json({
-        message:"This is Home Page."
+        message:"This is Home Page for test."
     })
 })
 
